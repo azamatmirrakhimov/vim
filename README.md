@@ -1,6 +1,11 @@
 # Что бы не искать что делать 
 ## 1. Надоперейти в директорию vim/src
 
+## Если не качает репозиторий надо настроить буфер
+~~~
+git config --global http.postBuffer 524288000
+~~~
+
 ~~~
 apt install make clang libtool-bin -y
 ~~~
