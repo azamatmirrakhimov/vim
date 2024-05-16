@@ -17,6 +17,11 @@ make
 make install
 ~~~~
 ## Потом для чуть чуть обновим  vim если версия все еще не изменилось просто выйдейти зайдите все должно измениться 
+## Установить плагины
+~~~
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+~~~
 
 ~~~
 vim ~/.vimrc
